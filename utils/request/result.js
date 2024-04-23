@@ -1,5 +1,5 @@
 const resultCode = require('./resultCode')
-const common = require('../utils/common')
+const common = require('../common')
 
 class result {
   code;

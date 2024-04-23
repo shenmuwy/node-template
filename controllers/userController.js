@@ -1,6 +1,6 @@
 const User = require('../module/user')
-const result = require('../common/result')
-const token = require('../common/token')
+const result = require('../utils/request/result')
+const token = require('../utils/request/token')
 const formidable = require('formidable')
 const fs = require('fs')
 const {v4: uuidv4} = require('uuid')

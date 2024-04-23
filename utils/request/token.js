@@ -1,6 +1,6 @@
 //用于生成和解析token
 const jwt = require('jsonwebtoken');
-const configs = require('../configs');
+const configs = require('../../configs');
 
 exports.setToken = function(username,userid){
   return new Promise((resolve,reject)=>{

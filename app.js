@@ -8,7 +8,7 @@ const { expressjwt: jwt } = require("express-jwt");
 const router = require('./routes/index');
 const configs = require('./configs');
 const datajs = require('./data');
-const result = require('./common/result');
+const result = require('./utils/request/result');
 
 const app = express();
 
