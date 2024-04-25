@@ -27,7 +27,7 @@ const userController = {
   insertUser: async function(req, res, next) {
     try {
       let user = req.body
-      let userData = await User.insert(user)
+      await User.insert(user)
       res.json(result.success({}))
     } catch (error) {
       res.json(result.fail('程序内部发生错误'))
